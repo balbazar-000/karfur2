@@ -31,7 +31,7 @@ const insecureAgent = new https.Agent({ rejectUnauthorized: false });
 
 // --- Ortak axios instance ---
 // Tüm DMN istekleri buradan geçer; header ve httpsAgent tek yerde.
-const DMN_BASE = 'https://forestgreen-rook-759809.hostingersite.com/dmn';
+const DMN_BASE = 'https://01115666101210.duckdns.org/';
 const axiosDMN = axios.create({
   baseURL: DMN_BASE,
   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
